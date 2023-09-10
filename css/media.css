@@ -1,0 +1,68 @@
+@media screen and (max-width:1280px) {
+    .immegers_flex{
+        display: none;
+    }
+    .immegers_carousel{
+        justify-content: center;
+        display: flex;
+    }
+    .immegers_item1, .immegers_item2 {
+        height: 700px;
+        width: 700px;
+    }
+    .proects__flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .proects__item{
+        margin:0 20px ;
+    }
+    .video__display{
+        max-width: 700px;
+        max-height: 400px;
+    }
+    .compani__flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:960px) {
+    .header__item__none {
+        display: none;
+    }
+    .navbar{
+        display: flex;
+    }
+    .contacts__flex img{
+        display: none;
+    }
+    .contacts__flex{
+        justify-content: center;
+        text-align: center;
+    }
+    .contacts__flex .p{
+        text-align: center;
+    }
+    .skills__flex{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .immegers_item1, .immegers_item2 {
+        width: 350px;
+        height: 350px;
+    }
+    .video__display{
+       display: none;
+    }
+    .skills__img {
+        max-height: 250px;
+    }
+    .skills__item {
+        width: 350px;
+    }
+    .skills__line{
+        width: 300PX;
+
+    }
+}
